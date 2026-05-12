@@ -14,7 +14,8 @@ export default function Post() {
     justifyContent:'center',
     flexDirection:'column',
     gap:"40px",
-    alignItems:'center'
+    alignItems:'center',
+    backgroundColor:'#f0f7f5'
   };
   const parentStyle = {
     width: "600px",
