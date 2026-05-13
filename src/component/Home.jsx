@@ -6,8 +6,9 @@ export default function Home() {
   const { Result } = useContext(GlobalContext);
   const[hover,setHover]=useState(null);
   const cardObj = {
-    width: "300px",
-    height: "200px",
+    width:"100%",//means 300px
+    maxWidth: "300px",//before width:300px
+    minHeight: "200px",//before height: "200px"
     // border: "3px solid blue",
     borderRadius: "10px",
     display: "flex",
@@ -20,7 +21,7 @@ export default function Home() {
     textTransform:'capitalize',
   };
   const parentObj = {
-    width: "100vw",
+    width: "100%",
     // border: "4px solid red",
     display: "flex",
     flexWrap: "wrap",
